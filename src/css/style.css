@@ -1,0 +1,62 @@
+ul {
+    padding-left: 0;
+}
+
+li {
+    padding-right: 3px;
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 50px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10%;
+    color: rgba(0, 0, 0, 0);
+    display: block;
+
+}
+
+.visa {
+    background-image: url('../img/visa1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 50%;
+}
+
+.master {
+    background-image: url('../img/master.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 50%;
+}
+
+.amex {
+    background-image: url('../img/aex.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 50%;
+}
+
+.world {
+    background-image: url('../img/world.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 50%;
+}
+
+.active {
+    opacity: 100%;
+}
+
+.btn {
+    background-color: #4cae4c;
+    color:wheat;
+    border-radius: 5px;
+}
